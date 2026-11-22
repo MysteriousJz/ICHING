@@ -95,3 +95,51 @@ Per Joey's instruction (2026-11-22): the previous Inner Chapters translations we
 - Chapters: **22 of 33** (Inner 7/7, Outer 15/15). Remaining: Miscellaneous (雜篇, 11 chapters).
 - Han characters translated: **41,839**. English words (bodies): **53,659**. `[uncertain]` flags: **28**.
 - Verified fidelity: 266/266 sections character-identical to source.
+
+---
+
+## Session entry 3 — Miscellaneous Chapters (莊子·雜篇) — BOOK COMPLETE
+
+All 11 Miscellaneous Chapters translated into `雜篇/en/` (2026-11-22, requested 23:12 UTC).
+
+### Files processed
+
+| File | Chapter | Status | Sections | Han chars |
+|---|---|---|---|---|
+| Geng-sang Chu | 庚桑楚 | complete | 26 | 2,450 |
+| Xu Wu-gui | 徐无鬼 | complete | 31 | 3,439 |
+| Ze-yang | 則陽 | complete | 22 | 2,535 |
+| What comes from Without | 外物 | complete | 16 | 1,518 |
+| Metaphorical Language | 寓言 | complete | 8 | 932 |
+| Kings who have wished to resign the Throne | 讓王 | complete | 24 | 2,706 |
+| The Robber Zhi | 盜跖 | complete | 19 | 3,100 |
+| Delight in the Sword-fight | 說劍 | complete | 7 | 869 |
+| The Old Fisherman | 漁父 | complete | 7 | 1,544 |
+| Lie Yu-kou | 列禦寇 | complete | 19 | 1,591 |
+| Tian Xia — Under Heaven | 天下 | complete | 18 | 2,657 |
+| **Total (11 of 11 Miscellaneous Chapters)** | | | **197** | **23,341** |
+
+### Throughput
+
+- Wall-clock: **~80 minutes** (23:12–00:33 UTC).
+- **≈ 17,500 Han chars/hour** — consistent with the Outer set, confirming the ~15,000–18,000/hr midpoint for Zhuangzi-register classical prose worked at full care.
+
+### Quality self-assessment
+
+- **Verification (automated):** 197/197 sections character-identical to source. **Book-wide: 463/463 sections, all_match=True.**
+- **`[uncertain]` flags this session: 11** (庚桑楚 ×2, 徐无鬼 ×3, 則陽 ×1, 外物 ×3, 寓言 ×1, 則陽 §6; total book-wide: **39**).
+- **Glossary conflicts: none.** The poetics triad (寓言/重言/卮言 → lodging-words / weighty words / goblet-words) is used identically in 寓言 and 天下 §14.
+- **Human reviewer should check:** the flagged passages; 庚桑楚 §§13–17 (the book's most gnomic text); 盜跖's exemplar-catalogues against 讓王's (a deliberate inversion); 天下 §§15–18's paradoxes (rendered as literally as English allows).
+
+### BOOK TOTALS — Zhuangzi complete (33 of 33 chapters)
+
+| Division | Chapters | Sections | Han chars | EN words (body) | `[uncertain]` |
+|---|---|---|---|---|---|
+| 內篇 Inner | 7/7 | 63 | 13,793 | 17,722 | 20 |
+| 外篇 Outer | 15/15 | 203 | 28,046 | 35,937 | 8 |
+| 雜篇 Miscellaneous | 11/11 | 197 | 23,341 | 28,163 | 11 |
+| **Total** | **33/33** | **463** | **65,180** | **81,822** | **39** |
+
+- Total wall-clock across three sessions: **~3.5 hours**. Effective rate: **≈ 18,600 Han chars/hour** (~3.2 min/1k).
+- Every output: ZH/EN aligned per section, translator's note per chapter, one consistent master glossary book-wide, zero fabricated content, zero UI leakage — all verified programmatically against the source HTML.
+- Planning guidance for the wider corpus (other books in the repo): for classical Chinese of this register at this quality bar (scholarly register, crux-flagging, automated fidelity checks), budget **~3–4 minutes per 1,000 Han characters** per worker-hour; scale worker counts accordingly.
