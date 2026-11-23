@@ -143,3 +143,24 @@ All 11 Miscellaneous Chapters translated into `雜篇/en/` (2026-11-22, requeste
 - Total wall-clock across three sessions: **~3.5 hours**. Effective rate: **≈ 18,600 Han chars/hour** (~3.2 min/1k).
 - Every output: ZH/EN aligned per section, translator's note per chapter, one consistent master glossary book-wide, zero fabricated content, zero UI leakage — all verified programmatically against the source HTML.
 - Planning guidance for the wider corpus (other books in the repo): for classical Chinese of this register at this quality bar (scholarly register, crux-flagging, automated fidelity checks), budget **~3–4 minutes per 1,000 Han characters** per worker-hour; scale worker counts accordingly.
+
+---
+
+## Session entry 4 — 焦氏易林注 S1 (first half) + canonical policy + pinyin format (2026-11-23)
+
+### Structural deliverables this session
+
+- **`TRANSLATION_STATUS.md`** — canonical tracker: status of all 20 books, full session schedule (S1–S38 + pinyin backfill), resume checkpoints, session log. Read-before-work / update-after-work policy is canonical.
+- **`CORPUS_PARAMETRIZATION.md`** — full survey (from prior session): ~928k Han chars remaining, ~59 under-an-hour sessions at 18.6k/hr midpoint.
+- **New canonical output format: ZH / PY / EN** — pinyin (tone marks, machine-generated via pypinyin, spot-checked) added per section starting with 焦氏易林注. Zhuangzi retains ZH/EN; pinyin backfill tracked in the status file.
+
+### Files processed (Session S1, first half per instruction)
+
+| File | Work | Status | Han chars |
+|---|---|---|---|
+| 焦氏易林注 juan 1 | 序 + sections 1–12 (乾–否), full ZH/PY/EN | 🟡 half done; resume §13 同人 | ~1,900 (verse+commentary incl. apparatus) |
+
+- Automated fidelity check: **14/14 ZH blocks character-identical** to source ctext cells.
+- `[uncertain]` flags: 1 (§4 鴶鵴 bird identification).
+- Rate note: commentarial prose (焦氏易林注) runs slower than Zhuangzi narrative — dense 象 (image-system) glosses, embedded Odes quotations, and pinyin generation — consistent with the conservative band for this book.
+- Checkpoint for resume: **焦氏易林注 juan 1 §13 同人** (sections 13–64 remain for S1 second half).
