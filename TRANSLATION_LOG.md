@@ -164,3 +164,18 @@ All 11 Miscellaneous Chapters translated into `雜篇/en/` (2026-11-22, requeste
 - `[uncertain]` flags: 1 (§4 鴶鵴 bird identification).
 - Rate note: commentarial prose (焦氏易林注) runs slower than Zhuangzi narrative — dense 象 (image-system) glosses, embedded Odes quotations, and pinyin generation — consistent with the conservative band for this book.
 - Checkpoint for resume: **焦氏易林注 juan 1 §13 同人** (sections 13–64 remain for S1 second half).
+
+---
+
+## Session entry 5 — Pinyin backfill (莊子 complete) + S1 second half (juan 1 complete) (2026-11-23)
+
+### Pinyin backfill — uniformity achieved
+
+- Scripted backfill (pypinyin, tone marks) across **all 33 莊子 chapters: 463/463 sections** now carry `**PY:**` lines. Verification: every ZH block byte-identical post-insert (66/66 juan-1 blocks; 463/463 莊子 sections); ZH/PY/EN aligned 1:1:1 in every file. **All translations project-wide are now uniform ZH/PY/EN.**
+
+### S1 second half — 焦氏易林注 juan 1 complete
+
+- Sections 13–64 (同人–未濟) translated; **juan 1 complete** (序 + 64 sections).
+- Automated fidelity check: **66/66 ZH blocks character-identical** (66 = 序 + 卷一 title + 64 sections); confirmed no leakage from the source file's second content cycle (the same file continues into 坤之 hexagram-cycle 2 — only the 乾之 cycle of juan 1 was taken).
+- `[uncertain]` flags this segment: 2 (§21 黔啄 bird-image gloss; §63 命制輸班 Luban-lot image). §39's illegible graph ● and §43's annotator-admitted 餘象多未詳 are flagged in-line.
+- Running totals: 34 chapters/books complete (莊子 33 + 焦氏易林注 juan 1), ~68k Han translated net, uniform ZH/PY/EN format throughout.

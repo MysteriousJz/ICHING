@@ -17,9 +17,10 @@
 
 | Book | Dir | Files | Han chars | Status | Pinyin |
 |---|---|---|---|---|---|
-| 莊子 Zhuangzi — Inner (7) | 道可道/莊子/內篇 | 7 | 13,793 | ✅ complete | ⬜ backfill pending |
-| 莊子 Zhuangzi — Outer (15) | 道可道/莊子/外篇 | 15 | 28,046 | ✅ complete | ⬜ backfill pending |
-| 莊子 Zhuangzi — Miscellaneous (11) | 道可道/莊子/雜篇 | 11 | 23,341 | ✅ complete | ⬜ backfill pending |
+| 莊子 Zhuangzi — Inner (7) | 道可道/莊子/內篇 | 7 | 13,793 | ✅ complete | ✅ backfilled |
+| 莊子 Zhuangzi — Outer (15) | 道可道/莊子/外篇 | 15 | 28,046 | ✅ complete | ✅ backfilled |
+| 莊子 Zhuangzi — Miscellaneous (11) | 道可道/莊子/雜篇 | 11 | 23,341 | ✅ complete | ✅ backfilled |
+| 焦氏易林注 — 序 + juan 1 | 焦氏易林注 | 1/16 | 4,746 | ✅ complete (S1) | ✅ (native format) |
 
 ---
 
@@ -31,7 +32,7 @@ Each session targets ≤ ~18.6k Han chars (< 1 hr). Within multi-juan books, ses
 
 | Session | Work item | Est. Han | Status |
 |---|---|---|---|
-| S1 | 焦氏易林注 — 序, juan 1 (through 未濟, 64 sections) | ~24.2k → target half | 🟡 half done (序+1–12) |
+| S1 | 焦氏易林注 — 序, juan 1 (through 未濟, 64 sections) | ~24.2k | ✅ complete |
 | S2 | 焦氏易林注 — juan 2 | ~24k | ⬜ |
 | S3 | 焦氏易林注 — juan 3–4 | ~20k | ⬜ |
 | S4 | 焦氏易林注 — juan 5–6 | ~20k | ⬜ |
@@ -112,4 +113,6 @@ Each session targets ≤ ~18.6k Han chars (< 1 hr). Within multi-juan books, ses
 | 0a | 2026-11-22 | Sarah | 莊子 Inner 7 (complete) | — | 13,793 | 20 |
 | 0b | 2026-11-22 | Sarah | 莊子 Outer 15 (complete) | — | 28,046 | 8 |
 | 0c | 2026-11-23 | Sarah | 莊子 Misc. 11 (complete) — book done | — | 23,341 | 11 |
-| 1 (half) | 2026-11-23 | Sarah | 焦氏易林注: 序 + juan 1 sections 1–12 (乾–姤) | **resume juan 1 §13 同人** | ~4.6k | 2 |
+| 1 (half) | 2026-11-23 | Sarah | 焦氏易林注: 序 + juan 1 sections 1–12 (乾–姤) | **resume juan 1 §13 同人** | ~1.9k | 1 |
+| 1 (backfill) | 2026-11-23 | Sarah | Pinyin backfill: all 33 莊子 chapters (463 sections ZH→PY) — uniform ZH/PY/EN everywhere | — | 65,180 (already counted) | 0 |
+| 1 (second half) | 2026-11-23 | Sarah | 焦氏易林注: juan 1 sections 13–64 (同人–未濟) — **juan 1 complete** | next: S2, juan 2 | ~2.9k | 2 |
